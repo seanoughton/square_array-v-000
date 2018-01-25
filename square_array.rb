@@ -4,4 +4,7 @@ def square_array(array)
     #new_array << (number**2)
   #end
   #return new_array
+  array.collect do |x|
+    x**2
+  end
 end
