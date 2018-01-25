@@ -4,6 +4,6 @@ def square_array(array)
     #new_array << (number**2)
   #end
   #return new_array
-  array.collect {|x| x**2}
-    
+  return array.collect {|x| x**2}
+
 end
